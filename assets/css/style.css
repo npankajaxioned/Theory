@@ -369,7 +369,7 @@ header {
   text-transform: capitalize;
 }
 
-.professors-heading>span {
+.professors-heading>p {
   margin-bottom: 55px;
   display: inline-block;
   color: #90B1D6;
