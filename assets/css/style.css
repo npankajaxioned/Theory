@@ -258,8 +258,11 @@ header {
 
 .nav-list li a {
   color: #7B7781;
+  transition: all 1s ease-in-out;
 }
-
+.nav-list li a:hover{
+  background-color: #5386C1;
+}
 /*=================================
   Header styling ends here
 =================================*/
@@ -337,6 +340,10 @@ header {
   color: #FFF;
   font-size: 14px;
   text-transform: capitalize;
+  transition: all 2s ease-in-out;
+}
+.more-list a:hover{
+  background-color: #666;
 }
 
 .more li:nth-child(2) {
@@ -481,8 +488,11 @@ header {
   color: #FFF;
   font-size: 14px;
   text-transform: capitalize;
+  transition: all 2s ease-in-out;
 }
-
+.article-list a:hover{
+  background-color: #666;
+}
 /*styling for article part end here*/
 /*=================================
   main styling ends here
@@ -512,6 +522,11 @@ header {
 .social-icon-list a {
   color: #FFF;
   font-size: 15px;
+  text-indent: -9999px;
+  transition: all 2s ease-in-out;
+}
+.social-icon-list a:hover{
+  background-color: #5386C1;
 }
 
 .footer-content ul li:first-child a::after {
@@ -519,6 +534,7 @@ header {
   color: #5386C1;
   font-family: "Font Awesome 5 Brands";
   text-indent: 0;
+  float: right;
 }
 
 .footer-content ul li:nth-child(2) a::after {
@@ -526,6 +542,7 @@ header {
   color: #5386C1;
   font-family: "Font Awesome 5 Brands";
   text-indent: 0;
+  float: right;
 }
 
 .footer-content ul li:nth-child(3) a::after {
@@ -533,6 +550,7 @@ header {
   color: #5386C1;
   font-family: "Font Awesome 5 Brands";
   text-indent: 0;
+  float: right;
 }
 
 .footer-content ul li:nth-child(4) a::after {
@@ -540,6 +558,7 @@ header {
   color: #5386C1;
   font-family: "Font Awesome 5 Brands";
   text-indent: 0;
+  float: right;
 }
 
 .footer-content ul li:nth-child(5) a::after {
@@ -547,6 +566,7 @@ header {
   color: #5386C1;
   font-family: "Font Awesome 5 Brands";
   text-indent: 0;
+  float: right;
 }
 
 /*=================================
