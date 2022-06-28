@@ -280,20 +280,13 @@ header {
   border-top: 7px solid #5386C1;
 }
 
-.text-upper {
-  text-transform: uppercase;
-}
-
-.text-cap {
-  text-transform: capitalize;
-}
 
 .banner-img h2 {
   margin-bottom: 15px;
   color: #B7BEC3;
   font-size: 45px;
   text-align: center;
-  text-transform: capitalize;
+
 }
 
 .banner-img p {
