@@ -259,6 +259,7 @@ header {
 .nav-list li a {
   color: #7B7781;
   transition: all 1s ease-in-out;
+  font-size: 11px;
 }
 .nav-list li a:hover{
   background-color: #5386C1;
