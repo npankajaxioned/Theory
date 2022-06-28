@@ -405,11 +405,11 @@ header {
   text-transform: capitalize;
 }
 
-.professors-list span {
+.professors-list p {
   color: #90B1D6;
 }
 
-.professors-list span::first-letter {
+.professors-list p::first-letter {
   text-transform: capitalize;
 }
 
