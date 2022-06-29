@@ -252,7 +252,7 @@ header {
 =================================*/
 /*styling for banner section start here*/
 .banner-img {
-  padding: 170px 0;
+  padding: 145px 0;
   position: relative;
   background-image: url(/assets/Images/banner.jpg);
   background-repeat: no-repeat;
@@ -449,7 +449,7 @@ header {
 /*=================================
   footer styling starts here
 =================================*/
-.footer-content {
+footer .wrapper {
   padding: 40px 0;
   display: flex;
   justify-content: space-between;
@@ -457,7 +457,7 @@ header {
   align-items: center;
 }
 
-.footer-content p {
+.footer-content {
   color: #E3E3E3;
   font-size: 11px;
   text-transform: capitalize;
@@ -473,7 +473,7 @@ header {
 }
 .social-icon-list a:hover{ background-color: #5386C1; }
 
-.footer-content ul li:first-child a::after {
+.social-icon-list li:first-child a::after {
   content: "\f39e";
   color: #5386C1;
   font-family: "Font Awesome 5 Brands";
@@ -481,7 +481,7 @@ header {
   float: right;
 }
 
-.footer-content ul li:nth-child(2) a::after {
+.social-icon-list li:nth-child(2) a::after {
   content: "\f099";
   color: #5386C1;
   font-family: "Font Awesome 5 Brands";
@@ -489,7 +489,7 @@ header {
   float: right;
 }
 
-.footer-content ul li:nth-child(3) a::after {
+.social-icon-list li:nth-child(3) a::after {
   content: "\f0e1";
   color: #5386C1;
   font-family: "Font Awesome 5 Brands";
@@ -497,7 +497,7 @@ header {
   float: right;
 }
 
-.footer-content ul li:nth-child(4) a::after {
+.social-icon-list li:nth-child(4) a::after {
   content: "\f231";
   color: #5386C1;
   font-family: "Font Awesome 5 Brands";
@@ -505,7 +505,7 @@ header {
   float: right;
 }
 
-.footer-content ul li:nth-child(5) a::after {
+.social-icon-list li:nth-child(5) a::after {
   content: "\f27d";
   color: #5386C1;
   font-family: "Font Awesome 5 Brands";
