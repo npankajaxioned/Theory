@@ -182,7 +182,8 @@ sub {
 
 /*for all*/
 body {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   font-family: sans-serif;
 }
 
@@ -203,7 +204,7 @@ li {
 .center { text-align: center; }
 .bold { font-weight: bold; }
 
-.transition { transition: 1s all ease;  }
+.transition { -webkit-transition: 1s all ease; -o-transition: 1s all ease; transition: 1s all ease;  }
 
 /*for wrapper*/
 .wrapper {
@@ -221,10 +222,17 @@ header {
 }
 .heading {
   padding-top: 67px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 .hamburger,
 .bar {
@@ -238,6 +246,8 @@ header {
 .nav-list li a {
   color: #7B7781;
   font-size: 11px;
+  -webkit-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
   transition: all 1s ease-in-out;
 }
 .nav-list li a:hover{
@@ -276,8 +286,12 @@ header {
 .more { padding: 83px 0; }
 
 .more-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .more-list li { width: 28%; }
@@ -304,6 +318,8 @@ header {
   color: #FFF;
   font-size: 14px;
   text-transform: capitalize;
+  -webkit-transition: all 2s ease-in-out;
+  -o-transition: all 2s ease-in-out;
   transition: all 2s ease-in-out;
 }
 .more-list a:hover{ background-color: #666; }
@@ -344,9 +360,14 @@ header {
 
 .professors-list {
   width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .professors-list li {
@@ -399,9 +420,14 @@ header {
 }
 
 .article-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .article-list li {
@@ -438,6 +464,8 @@ header {
   color: #FFF;
   font-size: 14px;
   text-transform: capitalize;
+  -webkit-transition: all 2s ease-in-out;
+  -o-transition: all 2s ease-in-out;
   transition: all 2s ease-in-out;
 }
 .article-list a:hover{ background-color: #666; }
@@ -451,10 +479,17 @@ header {
 =================================*/
 footer .wrapper {
   padding: 40px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .footer-content {
@@ -469,6 +504,8 @@ footer .wrapper {
   color: #FFF;
   font-size: 15px;
   text-indent: -9999px;
+  -webkit-transition: all 2s ease-in-out;
+  -o-transition: all 2s ease-in-out;
   transition: all 2s ease-in-out;
 }
 .social-icon-list a:hover{ background-color: #5386C1; }
@@ -570,22 +607,29 @@ footer .wrapper {
   /*styling for hamburger start here*/
   .heading { position: relative; }
 
-  .heading h1 { order: 1; }
+  .heading h1 { -webkit-box-ordinal-group: 2; -ms-flex-order: 1; order: 1; }
 
-  .heading div { order: 3; }
+  .heading div { -webkit-box-ordinal-group: 4; -ms-flex-order: 3; order: 3; }
 
   .heading nav {
     display: none;
     position: absolute;
     right: 0;
     left: 0;
-    order: 2;
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
   }
 
   .nav-list {
     margin-top: 110px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     padding: 100px 0;
     background-color: #fff;
   }
@@ -596,6 +640,8 @@ footer .wrapper {
     margin: 5px auto;
     display: block;
     background-color: #FFF;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
     text-indent: -9999px;
   }
@@ -622,10 +668,19 @@ footer .wrapper {
   /*styling for hamburger end here*/
 
   .more-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
 
   .more-list li {
@@ -658,10 +713,17 @@ footer .wrapper {
 
   .professors-list {
     width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
 
   .professors-list li {
@@ -672,10 +734,20 @@ footer .wrapper {
   }
 
   .article-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+     flex-direction: column;
+    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;
   }
 
@@ -694,10 +766,20 @@ footer .wrapper {
 
   .footer-content {
     padding: 15px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
+    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
   }
 
