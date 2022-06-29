@@ -578,6 +578,7 @@ header {
     display: none;
     position: absolute;
     right: 0;
+    left: 0;
     order: 2;
   }
 
@@ -585,6 +586,8 @@ header {
     margin-top: 110px;
     display: flex;
     flex-direction: column;
+    padding: 100px 0;
+    background-color: #fff;
   }
 
   .bar {
@@ -607,12 +610,13 @@ header {
     padding: 5px;
     background-color: #FFF;
     font-size: 13px;
-    text-align: right;
+    text-align: center;
   }
 
   .nav-list li a {
-    color: #098CFF;
-    text-decoration: underline;
+    font-size: 22px;
+    text-decoration: none;
+    color: #000;
   }
 
   /*styling for hamburger end here*/
