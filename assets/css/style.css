@@ -236,7 +236,7 @@ header {
 }
 .hamburger,
 .bar {
-  display: none;
+  display: block;
 }
 .nav-list li {
   padding-left: 13px;
