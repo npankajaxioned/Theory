@@ -234,9 +234,8 @@ header {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
-.hamburger,
-.bar {
-  display: block;
+.hamburger {
+  display: none;
 }
 .nav-list li {
   padding-left: 13px;
