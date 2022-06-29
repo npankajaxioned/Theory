@@ -613,6 +613,7 @@ footer .wrapper {
   .heading nav {
     display: none;
     position: absolute;
+    top: 0;
     right: 0;
     left: 0;
     -webkit-box-ordinal-group: 3;
